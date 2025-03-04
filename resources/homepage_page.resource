@@ -12,7 +12,7 @@ I am on the homepage
     Click   selector=id=didomi-notice-agree-button
     Get Element States  id=didomi-popup  contains  detached
 
-Search for a product
+I search for ballon
     #Fill Text    selector=input[placeholder='Rechercher un produit, un sport ou une référence']    txt=${SEARCH_TERM}
     Fill Text    xpath=//input[@type='search']    ${SEARCH}
     

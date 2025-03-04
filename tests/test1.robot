@@ -10,7 +10,7 @@ Test 1
 
 Test 2 
     Given I am on the homepage
-    When Search for a product
+    When I search for ballon
 
 
    
