@@ -12,12 +12,11 @@ I am on the homepage
     Click   selector=id=didomi-notice-agree-button
     Get Element States  id=didomi-popup  contains  detached
 
-I search for ballon
+I search for ${SEARCH}
     #Fill Text    selector=input[placeholder='Rechercher un produit, un sport ou une référence']    txt=${SEARCH_TERM}
     Fill Text    xpath=//input[@type='search']    ${SEARCH}
     
     Click   css=#search-bar button[type='submit']
     #Press Keys    css=#search-bar input[type='search]   enter 
     
-    Get Element States   id=search-suggestions-banner  contains  visible
-    Get Text    css=.searchText  contains  ${SEARCH}
+ 

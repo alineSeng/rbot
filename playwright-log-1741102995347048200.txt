@@ -1,0 +1,57 @@
+{"level":30,"time":"2025-03-04T15:43:16.522Z","pid":28752,"hostname":"Vauban-1-4","msg":"Listening on 49652"}
+(node:28752) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-04T15:43:17.068Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-04T15:43:17.273Z","pid":28752,"hostname":"Vauban-1-4","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-04T15:43:17.274Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-04T15:43:17.274Z","pid":28752,"hostname":"Vauban-1-4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-04T15:43:17.281Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-04T15:43:17.281Z","pid":28752,"hostname":"Vauban-1-4","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-03-04T15:43:17.282Z","pid":28752,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T15:43:17.282Z","pid":28752,"hostname":"Vauban-1-4","msg":"Trace file: "}
+{"level":30,"time":"2025-03-04T15:43:17.300Z","pid":28752,"hostname":"Vauban-1-4","msg":"Changed active context"}
+{"level":30,"time":"2025-03-04T15:43:17.300Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-04T15:43:17.309Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-04T15:43:17.310Z","pid":28752,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T15:43:17.499Z","pid":28752,"hostname":"Vauban-1-4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-04T15:43:17.499Z","pid":28752,"hostname":"Vauban-1-4","msg":"Changed active page"}
+================= Original suppressed error =================
+page.goto: Target page, context or browser has been closed
+Call log:
+[2m  - navigating to "https://www.decathlon.fr/", waiting until "load"[22m
+
+    at newPage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12567:18)
+    at async PlaywrightServer.newPage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28)
+=============================================================
+{"level":30,"time":"2025-03-04T15:43:18.733Z","pid":28752,"hostname":"Vauban-1-4","msg":"Removed page=70588077-6386-4ee7-82a8-51b9b8db8f29 from context=ecb16d42-12f1-4f85-bd19-d5504dc6957e page stack"}
+{"level":30,"time":"2025-03-04T15:43:18.734Z","pid":28752,"hostname":"Vauban-1-4","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:34)
+    at Object.onReceiveHalfClose (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:570:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:610:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:377:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-03-04T15:43:18.806Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T15:43:18.807Z","pid":28752,"hostname":"Vauban-1-4","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2025-03-04T15:43:18.879Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.880Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.883Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.883Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.887Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.887Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.892Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.893Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.897Z","pid":28752,"hostname":"Vauban-1-4","msg":"Changed active context"}
+{"level":30,"time":"2025-03-04T15:43:18.899Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-04T15:43:18.912Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-04T15:43:18.922Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:18.922Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-04T15:43:21.011Z","pid":28752,"hostname":"Vauban-1-4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-04T15:43:21.138Z","pid":28752,"hostname":"Vauban-1-4","msg":"End of node method closeAllBrowsers"}
