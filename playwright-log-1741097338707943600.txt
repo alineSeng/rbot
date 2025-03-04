@@ -1,0 +1,48 @@
+{"level":30,"time":"2025-03-04T14:08:59.262Z","pid":6680,"hostname":"Vauban-1-4","msg":"Listening on 60666"}
+(node:6680) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-04T14:08:59.334Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-04T14:08:59.483Z","pid":6680,"hostname":"Vauban-1-4","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-04T14:08:59.484Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-04T14:08:59.484Z","pid":6680,"hostname":"Vauban-1-4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-04T14:08:59.490Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-04T14:08:59.490Z","pid":6680,"hostname":"Vauban-1-4","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1280,\"height\":720}}"}
+{"level":30,"time":"2025-03-04T14:08:59.490Z","pid":6680,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T14:08:59.490Z","pid":6680,"hostname":"Vauban-1-4","msg":"Trace file: "}
+{"level":30,"time":"2025-03-04T14:08:59.505Z","pid":6680,"hostname":"Vauban-1-4","msg":"Changed active context"}
+{"level":30,"time":"2025-03-04T14:08:59.505Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-04T14:08:59.511Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-04T14:08:59.512Z","pid":6680,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-04T14:08:59.620Z","pid":6680,"hostname":"Vauban-1-4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-04T14:08:59.620Z","pid":6680,"hostname":"Vauban-1-4","msg":"Changed active page"}
+{"level":30,"time":"2025-03-04T14:09:01.192Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-04T14:09:01.197Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:09:01.197Z","pid":6680,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-04T14:09:01.240Z","pid":6680,"hostname":"Vauban-1-4","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-04T14:09:01.240Z","pid":6680,"hostname":"Vauban-1-4","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-04T14:09:01.258Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:09:01.263Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-04T14:09:01.263Z","pid":6680,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-04T14:09:01.438Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method click"}
+{"level":30,"time":"2025-03-04T14:09:01.443Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:09:01.444Z","pid":6680,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-04T14:09:01.694Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-04T14:09:01.702Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-03-04T14:09:01.703Z","pid":6680,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//input[@type='search'] in page."}
+{"level":30,"time":"2025-03-04T14:09:01.808Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method fillText"}
+{"level":30,"time":"2025-03-04T14:09:01.812Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method press"}
+{"level":30,"time":"2025-03-04T14:09:01.813Z","pid":6680,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with css=#search-bar input[type='search] in page."}
+{"level":30,"time":"2025-03-04T14:09:01.816Z","pid":6680,"hostname":"Vauban-1-4","msg":"Error of node method  press"}
+================= Original suppressed error =================
+locator.press: Unexpected token "" while parsing css selector "#search-bar input[type='search]". Did you mean to CSS.escape it?
+Call log:
+[2m  - waiting for css=#search-bar input[type='search][22m
+
+    at press (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11863:19)
+    at async PlaywrightServer.press (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2025-03-04T14:09:01.835Z","pid":6680,"hostname":"Vauban-1-4","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-04T14:09:01.835Z","pid":6680,"hostname":"Vauban-1-4","Take screenshot with options: ":{"path":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-04T14:09:02.908Z","pid":6680,"hostname":"Vauban-1-4","msg":"End of node method takeScreenshot"}
