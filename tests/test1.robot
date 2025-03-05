@@ -3,24 +3,40 @@ Library  Browser
 Resource  ../resources/homepage_page.resource
 Resource  ../resources/search_page.resource
 Resource    ../resources/connexion_page.resource
-
+Resource  ../resources/cart_page.resource
+Test Setup  Given I am on the homepage
 
 
 *** Test Cases ***
 Test 1
-   Given I am on the homepage
+   No Operation
 
 Test 2 
-    Given I am on the homepage
-    When I search for $SEARCH
-    Then I am on the search for $SEARCH
+    
+    When I search for "ballon"
+    Then I am on the search for "ballon"
 
 Test 3
-    Given I am on the homepage
+    
     When I click on connexion
     Then I enter an email
+    And I have an connexion error message
 
+Test 4 
+    
+    When I search for ballon
+    Then I am on the search for "ballon"
+    And I check that the sort list is by "Meilleures ventes"
+    When I sort the list by "Note des clients"
+    #Then I check that the sort list is by "Note des clients"
 
+    
+Test 5
+    When I search for ballon
+    Then I am on the search for "ballon"
+    When I sort the list by "Note des clients"
+    And I open the first product page
+    
    
 
    
