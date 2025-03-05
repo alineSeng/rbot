@@ -2,8 +2,7 @@
 Library  Browser
 
 *** Variables ***
-${SEARCH}  ballon
-${SORT}  Meilleures ventes
+
 ${my_select_ball}  Ballon UWCL League 24/25 Group Stage
 
 *** Keywords ***
@@ -22,6 +21,5 @@ I sort the list by "${SORT}"
    
 
 I open the first product page
-    Click  css=.dpb-product-model-link.svelte-1bclr8g[href='/p/mp/adidas/ballon-uwcl-league-24-25-group-stage/_/R-p-c3163630-a6fd-45e4-8724-561f691dc1c4?mc=c3163630-a6fd-45e4-8724-561f691dc1c4_c4c1c220']
-
+    Click  xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img]
 

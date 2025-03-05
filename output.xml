@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-05T14:48:07.055982" rpa="false" schemaversion="5">
+<suite id="s1" name="Test1" source="c:\Users\Administrateur\OneDrive - M2I\Bureau\RobotFramework\tests\test1.robot">
+<test id="s1-t1" name="Test 5" line="35">
+<kw name="Given I am on the homepage" owner="homepage_page" type="SETUP">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-03-05T14:48:07.276538" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-05T14:48:07.280030" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\c8423786-f8c0-4fba-91f0-5f7fd16f064e"}</msg>
+<msg time="2025-03-05T14:48:07.297136" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 52273</msg>
+<msg time="2025-03-05T14:48:07.297394" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '52273']</msg>
+<msg time="2025-03-05T14:48:08.012249" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\c8423786-f8c0-4fba-91f0-5f7fd16f064e"}</msg>
+<msg time="2025-03-05T14:48:08.013449" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-03-05T14:48:08.033014" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-05T14:48:08.033330" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-03-05T14:48:09.782953" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr/</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-03-05T14:48:07.275874" elapsed="2.507459"/>
+</kw>
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-03-05T14:48:09.847208" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<arg>id=didomi-notice-agree-button</arg>
+<arg>contains</arg>
+<arg>visible</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:09.783591" elapsed="0.063849"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-05T14:48:09.848207" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
+<arg>selector=id=didomi-notice-agree-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:09.847658" elapsed="0.152226"/>
+</kw>
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-03-05T14:48:10.261211" level="INFO">States are: ['detached']</msg>
+<arg>id=didomi-popup</arg>
+<arg>contains</arg>
+<arg>detached</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:10.000311" elapsed="0.261265"/>
+</kw>
+<status status="PASS" start="2025-03-05T14:48:07.275123" elapsed="2.986700"/>
+</kw>
+<kw name="When I search for ballon" owner="homepage_page" source_name="I search for ${SEARCH}">
+<kw name="Fill Text" owner="Browser">
+<msg time="2025-03-05T14:48:10.264075" level="INFO">Fills the text 'ballon' in the given field.</msg>
+<arg>xpath=//input[@type='search']</arg>
+<arg>${SEARCH}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:10.263044" elapsed="0.044484"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-03-05T14:48:10.308456" level="INFO">Clicks the element 'css=#search-bar button[type='submit']'.</msg>
+<arg>css=#search-bar button[type='submit']</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:10.307851" elapsed="0.708057"/>
+</kw>
+<status status="PASS" start="2025-03-05T14:48:10.262369" elapsed="0.753816"/>
+</kw>
+<kw name="Then I am on the search for &quot;ballon&quot;" owner="search_page" source_name="I am on the search for &quot;${SEARCH}&quot;">
+<kw name="Get Element States" owner="Browser">
+<msg time="2025-03-05T14:48:11.299489" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<arg>id=search-suggestions-banner</arg>
+<arg>contains</arg>
+<arg>visible</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:11.017469" elapsed="0.283018"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-05T14:48:12.031969" level="INFO">Text: 'ballon'</msg>
+<arg>css=.searchText</arg>
+<arg>contains</arg>
+<arg>${SEARCH}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:11.300901" elapsed="0.731338"/>
+</kw>
+<status status="PASS" start="2025-03-05T14:48:11.016813" elapsed="1.015600"/>
+</kw>
+<kw name="When I sort the list by &quot;Note des clients&quot;" owner="search_page" source_name="I sort the list by &quot;${SORT}&quot;">
+<kw name="Select Options By" owner="Browser">
+<msg time="2025-03-05T14:48:12.034172" level="INFO">Selects the option(s) contains, Note des clients by attribute SelectAttribute.label from element id=list-sort-select.</msg>
+<arg>id=list-sort-select</arg>
+<arg>label</arg>
+<arg>contains</arg>
+<arg>${SORT}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:12.033469" elapsed="0.129867"/>
+</kw>
+<status status="PASS" start="2025-03-05T14:48:12.032929" elapsed="0.130636"/>
+</kw>
+<kw name="And I open the first product page" owner="search_page">
+<kw name="Click" owner="Browser">
+<msg time="2025-03-05T14:48:12.164842" level="INFO">Clicks the element 'xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img]'.</msg>
+<arg>xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img]</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-03-05T14:48:12.164361" elapsed="0.674894"/>
+</kw>
+<status status="PASS" start="2025-03-05T14:48:12.163947" elapsed="0.675490"/>
+</kw>
+<kw name="Then I am on the product page for &quot;Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL.&quot;" owner="product_page" source_name="I am on the product page for &quot;${name}&quot;">
+<kw name="Get Text" owner="Browser">
+<msg time="2025-03-05T14:48:14.627216" level="INFO">
