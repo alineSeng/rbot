@@ -24,3 +24,13 @@ I open the first product page
     Click  xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img]
 
 
+The sellers are displayed correctly
+  @{list}=  Create List  Decathlon    Balles de Sport   Sport & Go    Butyjana   Sportano EU
+  ${count}=   Count Values In List  @{list} 
+  FOR  ${index}  IN RANGE  1  ${count}
+      Log    ${index}
+      ${seller}=  Get From List    ${list}    ${index}-1
+
+    Get Text    xpath=
+
+  END

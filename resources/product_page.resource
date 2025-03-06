@@ -20,3 +20,6 @@ the product is added to the cart successfully
 
 I go to the cart
     Click  css=[data-href='/checkout/cart']
+
+I close the cart popin
+    Click    css=.ecomm-sidepanel__close-btn-icon

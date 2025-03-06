@@ -11,7 +11,7 @@ the cart is displayed
     Get Text    css=h1  contains  Panier
 
 
-there are ${count} product(s) in the cart
+there are "${count}"" product(s) in the cart
     Get Element Count  css=.cart-line  ==  ${count}
 
 the product "${name}" is in the cart

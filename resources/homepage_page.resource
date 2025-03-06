@@ -11,6 +11,10 @@ I am on the homepage
     Get Element States  id=didomi-notice-agree-button  contains  visible
     Click   selector=id=didomi-notice-agree-button
     Get Element States  id=didomi-popup  contains  detached
+    #Get Element States    id=didomi-notice-agree-button  contains  detached
+
+I go to the login form
+    Click    css=.tool--account a
 
 I search for ${SEARCH}
     #Fill Text    selector=input[placeholder='Rechercher un produit, un sport ou une référence']    txt=${SEARCH_TERM}

@@ -8,6 +8,10 @@ ${EMAIL}  lala@gmimi;com
 
 
 *** Keywords ***
+
+I am on the login form
+    Get Element States    id=form-sign-in    contains    visible
+
 I click on connexion
     Get Element States  css=${CONNEXION}  contains  visible
     Click   css=${CONNEXION}
