@@ -45,5 +45,9 @@ Test 5
     And there are "1" product(s) in the cart
     And the product "Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL." is in the cart 
    
-
+Test 8
+    When I search for ballon
+    Then I am on the search page for "ballon"
+    And The sellers are displayed correctly
+    
    

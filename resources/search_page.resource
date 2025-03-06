@@ -23,3 +23,4 @@ I sort the list by "${SORT}"
 I open the first product page
     Click  xpath=(//*[contains(concat(' ', normalize-space(@class), ' '), ' product-list ')]/*)[1]//a[./img]
 
+
