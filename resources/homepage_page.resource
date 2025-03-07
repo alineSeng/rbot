@@ -1,5 +1,6 @@
 *** Settings ***
 Library  Browser
+Library    Collections
 
 *** Variables ***
 ${URL}  https://www.decathlon.fr/
@@ -36,14 +37,22 @@ I click on the submenu Revendre mon materiel
     Click  xpath=//a[@data-cs-override-id="categoryitem_7-seconde-vie-revendre-mon-materiel"]
 
 # Un encard s'affiche sur la droite.
-I check the encart
+the slider Comment ça marche is opened
     Get Element States    xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx']  contains  visible
-    
-#S'assurer que les 4 sections de texte sont bien "Identifier ton produit" etc...
-I check the 4 sections are here
-    
     ${comment ca marche?}=  Get Text    xpath=//div[contains(text(),'Comment ça marche?')] 
 
     Should Be Equal As Strings      ${comment ca marche?}     ${expected text}  
-
     
+#S'assurer que les 4 sections de texte sont bien "Identifier ton produit" etc...
+I check the 4 sections are here
+    ##########
+    @{list}=  Create List  Identifier ton produit    Faire un diagnostique    Selectionner un magasin    Confirmer ton offre
+    @{elements}=  Get Elements    css=.steps-worflow .step-title
+    ${count_elements}=  Get Length    ${elements}
+    
+    FOR    ${index}    IN RANGE    0    END    ${count_elements}
+        Log    ${index}
+        ${element}=   Get From List  ${elements}  ${index}
+        ${text_from_data}=  Get Index From List    ${list}    ${index}
+        Get Text    ${element}  contains ${element}
+    END

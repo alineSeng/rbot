@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T15:30:43.161890" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2.2 (Python 3.13.2 on win32)" generated="2025-03-07T16:10:19.170125" rpa="false" schemaversion="5">
 <suite id="s1" name="Test1" source="c:\Users\Administrateur\OneDrive - M2I\Bureau\RobotFramework\tests\test1.robot">
 <test id="s1-t1" name="Test" line="66">
 <kw name="Given I am on the homepage" owner="homepage_page" type="SETUP">
 <kw name="Open Browser" owner="Browser">
-<msg time="2025-03-07T15:30:43.351034" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
-<msg time="2025-03-07T15:30:43.353355" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\314c3eb7-bbf8-4151-aa91-a0b5f749ca5f"}</msg>
-<msg time="2025-03-07T15:30:43.369774" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 51373</msg>
-<msg time="2025-03-07T15:30:43.370015" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '51373']</msg>
-<msg time="2025-03-07T15:30:44.062658" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\314c3eb7-bbf8-4151-aa91-a0b5f749ca5f"}</msg>
-<msg time="2025-03-07T15:30:44.064084" level="INFO">{
+<msg time="2025-03-07T16:10:19.363643" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-07T16:10:19.366890" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\dcfa5c1a-8200-4a46-be89-b2e40e3ca8a2"}</msg>
+<msg time="2025-03-07T16:10:19.382964" level="INFO">Starting Browser process C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using port 53057</msg>
+<msg time="2025-03-07T16:10:19.383246" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Administrateur\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js', '53057']</msg>
+<msg time="2025-03-07T16:10:20.075903" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Administrateur\\OneDrive - M2I\\Bureau\\RobotFramework\\browser\\traces\\temp\\dcfa5c1a-8200-4a46-be89-b2e40e3ca8a2"}</msg>
+<msg time="2025-03-07T16:10:20.077447" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": true,
   "forcedColors": "none",
@@ -19,21 +19,21 @@
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "width": 1280,
-    "height": 720
+    "height": 720,
+    "width": 1280
   }
 }</msg>
-<msg time="2025-03-07T15:30:44.079608" level="INFO">Successfully created context. </msg>
-<msg time="2025-03-07T15:30:44.079851" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
-<msg time="2025-03-07T15:30:45.706289" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr/</msg>
+<msg time="2025-03-07T16:10:20.092455" level="INFO">Successfully created context. </msg>
+<msg time="2025-03-07T16:10:20.092773" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-03-07T16:10:21.828809" level="INFO">Successfully initialized new page object and opened url: https://www.decathlon.fr/</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
-<status status="PASS" start="2025-03-07T15:30:43.349888" elapsed="2.356697"/>
+<status status="PASS" start="2025-03-07T16:10:19.362795" elapsed="2.466406"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-07T15:30:45.766051" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<msg time="2025-03-07T16:10:21.884710" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
 <arg>id=didomi-notice-agree-button</arg>
 <arg>contains</arg>
 <arg>visible</arg>
@@ -41,18 +41,18 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:45.706847" elapsed="0.059423"/>
+<status status="PASS" start="2025-03-07T16:10:21.829512" elapsed="0.055414"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-03-07T15:30:45.767225" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
+<msg time="2025-03-07T16:10:21.885633" level="INFO">Clicks the element 'id=didomi-notice-agree-button'.</msg>
 <arg>selector=id=didomi-notice-agree-button</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:45.766526" elapsed="0.164409"/>
+<status status="PASS" start="2025-03-07T16:10:21.885126" elapsed="0.152016"/>
 </kw>
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-07T15:30:46.187499" level="INFO">States are: ['detached']</msg>
+<msg time="2025-03-07T16:10:22.290507" level="INFO">States are: ['detached']</msg>
 <arg>id=didomi-popup</arg>
 <arg>contains</arg>
 <arg>detached</arg>
@@ -60,35 +60,35 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:45.931512" elapsed="0.256402"/>
+<status status="PASS" start="2025-03-07T16:10:22.037430" elapsed="0.253349"/>
 </kw>
-<status status="PASS" start="2025-03-07T15:30:43.349060" elapsed="2.839192"/>
+<status status="PASS" start="2025-03-07T16:10:19.362012" elapsed="2.928917"/>
 </kw>
 <kw name="When I go to the menu Services &amp; Voyages" owner="homepage_page">
 <kw name="Click" owner="Browser">
-<msg time="2025-03-07T15:30:46.190851" level="INFO">Clicks the element 'xpath=//span[@class='svelte-1lgf518'][normalize-space()='Services &amp; voyages']'.</msg>
+<msg time="2025-03-07T16:10:22.292484" level="INFO">Clicks the element 'xpath=//span[@class='svelte-1lgf518'][normalize-space()='Services &amp; voyages']'.</msg>
 <arg>xpath=//span[@class='svelte-1lgf518'][normalize-space()='Services &amp; voyages']</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:46.189866" elapsed="0.151838"/>
+<status status="PASS" start="2025-03-07T16:10:22.291936" elapsed="0.163014"/>
 </kw>
-<status status="PASS" start="2025-03-07T15:30:46.189025" elapsed="0.152914"/>
+<status status="PASS" start="2025-03-07T16:10:22.291457" elapsed="0.163700"/>
 </kw>
 <kw name="And I click on the submenu Revendre mon materiel" owner="homepage_page">
 <kw name="Click" owner="Browser">
-<msg time="2025-03-07T15:30:46.343762" level="INFO">Clicks the element 'xpath=//a[@data-cs-override-id="categoryitem_7-seconde-vie-revendre-mon-materiel"]'.</msg>
+<msg time="2025-03-07T16:10:22.456606" level="INFO">Clicks the element 'xpath=//a[@data-cs-override-id="categoryitem_7-seconde-vie-revendre-mon-materiel"]'.</msg>
 <arg>xpath=//a[@data-cs-override-id="categoryitem_7-seconde-vie-revendre-mon-materiel"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:46.342996" elapsed="0.856582"/>
+<status status="PASS" start="2025-03-07T16:10:22.456099" elapsed="1.016341"/>
 </kw>
-<status status="PASS" start="2025-03-07T15:30:46.342373" elapsed="0.857489"/>
+<status status="PASS" start="2025-03-07T16:10:22.455579" elapsed="1.017100"/>
 </kw>
 <kw name="Then I check the encart" owner="homepage_page">
 <kw name="Get Element States" owner="Browser">
-<msg time="2025-03-07T15:30:48.227726" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
+<msg time="2025-03-07T16:10:24.660804" level="INFO">States are: ['attached', 'visible', 'enabled', 'defocused']</msg>
 <arg>xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx']</arg>
 <arg>contains</arg>
 <arg>visible</arg>
@@ -96,49 +96,118 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Get the active states from the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:47.200718" elapsed="1.027236"/>
+<status status="PASS" start="2025-03-07T16:10:23.473827" elapsed="1.187190"/>
 </kw>
-<status status="PASS" start="2025-03-07T15:30:47.200234" elapsed="1.027857"/>
+<status status="PASS" start="2025-03-07T16:10:23.473239" elapsed="1.187926"/>
 </kw>
 <kw name="And I check the 4 sections are here" owner="homepage_page">
 <kw name="Get Text" owner="Browser">
-<msg time="2025-03-07T15:30:48.246623" level="INFO">Text: 'Comment ça marche?'</msg>
-<msg time="2025-03-07T15:30:48.247046" level="INFO">${comment ca marche?} = Comment ça marche?</msg>
+<msg time="2025-03-07T16:10:24.677777" level="INFO">Text: 'Comment ça marche?'</msg>
+<msg time="2025-03-07T16:10:24.678027" level="INFO">${comment ca marche?} = Comment ça marche?</msg>
 <var>${comment ca marche?}</var>
 <arg>xpath=//div[contains(text(),'Comment ça marche?')]</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-03-07T15:30:48.229426" elapsed="0.017722"/>
+<status status="PASS" start="2025-03-07T16:10:24.662163" elapsed="0.015943"/>
 </kw>
 <kw name="Should Be Equal As Strings" owner="BuiltIn">
 <arg>${comment ca marche?}</arg>
 <arg>${expected text}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<status status="PASS" start="2025-03-07T15:30:48.247421" elapsed="0.000432"/>
+<status status="PASS" start="2025-03-07T16:10:24.678321" elapsed="0.000476"/>
 </kw>
-<status status="PASS" start="2025-03-07T15:30:48.228635" elapsed="0.019354"/>
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-03-07T16:10:24.679356" level="INFO">@{list} = [ Identifier ton produit | Faire un diagnostique | Selectionner un magasin | Confirmer ton offre ]</msg>
+<var>@{list}</var>
+<arg>Identifier ton produit</arg>
+<arg>Faire un diagnostique</arg>
+<arg>Selectionner un magasin</arg>
+<arg>Confirmer ton offre</arg>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-03-07T16:10:24.678977" elapsed="0.000479"/>
 </kw>
-<msg time="2025-03-07T15:30:48.251419" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-03-07T15:30:48.260739" level="INFO">Switching context to context=9b849c30-41bb-43a8-a994-60bc5a2f7deb in CURRENT</msg>
-<msg time="2025-03-07T15:30:48.268364" level="INFO">Successfully changed active context: context=9b849c30-41bb-43a8-a994-60bc5a2f7deb</msg>
-<msg time="2025-03-07T15:30:48.302787" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-03-07T15:30:43.347362" elapsed="4.900971"/>
+<kw name="Get Elements" owner="Browser">
+<msg time="2025-03-07T16:10:34.696366" level="INFO">Found  Locators successfully.</msg>
+<msg time="2025-03-07T16:10:34.697395" level="INFO">@{elements} = [ ]</msg>
+<var>@{elements}</var>
+<arg>css=.steps-worflow .step-title</arg>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns a reference to Playwright [https://playwright.dev/docs/api/class-locator|Locator]
+for all matched elements by ``selector``.</doc>
+<status status="PASS" start="2025-03-07T16:10:24.679617" elapsed="10.018122"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2025-03-07T16:10:34.699800" level="INFO">Length is 0.</msg>
+<msg time="2025-03-07T16:10:34.700243" level="INFO">${count_elements} = 0</msg>
+<var>${count_elements}</var>
+<arg>${elements}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2025-03-07T16:10:34.698796" elapsed="0.001713"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<arg>${index}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2025-03-07T16:10:34.702878" elapsed="0.000648"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<var>${element}</var>
+<arg>${elements}</arg>
+<arg>${index}</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="NOT RUN" start="2025-03-07T16:10:34.703923" elapsed="0.000277"/>
+</kw>
+<kw name="Get Index From List" owner="Collections">
+<var>${text_from_data}</var>
+<arg>${list}</arg>
+<arg>${index}</arg>
+<doc>Returns the index of the first occurrence of the ``value`` on the list.</doc>
+<status status="NOT RUN" start="2025-03-07T16:10:34.704453" elapsed="0.000422"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<arg>${element}</arg>
+<arg>contains ${element}</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" start="2025-03-07T16:10:34.705175" elapsed="0.000204"/>
+</kw>
+<var name="${index}"/>
+<status status="NOT RUN" start="2025-03-07T16:10:34.701921" elapsed="0.003597"/>
+</iter>
+<msg time="2025-03-07T16:10:34.705627" level="FAIL">Converting FOR IN RANGE values failed: NameError: name 'END' is not defined.</msg>
+<var>${index}</var>
+<value>0</value>
+<value>END</value>
+<value>${count_elements}</value>
+<status status="FAIL" start="2025-03-07T16:10:34.700833" elapsed="0.006870">Converting FOR IN RANGE values failed: NameError: name 'END' is not defined.</status>
+</for>
+<status status="FAIL" start="2025-03-07T16:10:24.661643" elapsed="10.046441">Converting FOR IN RANGE values failed: NameError: name 'END' is not defined.</status>
+</kw>
+<msg time="2025-03-07T16:10:34.711713" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-03-07T16:10:34.720847" level="INFO">Switching context to context=5d20d5d1-a2a9-4109-8c58-390cd5c9916a in CURRENT</msg>
+<msg time="2025-03-07T16:10:34.727978" level="INFO">Successfully changed active context: context=5d20d5d1-a2a9-4109-8c58-390cd5c9916a</msg>
+<msg time="2025-03-07T16:10:34.766708" level="INFO">Successfully closed Context</msg>
+<status status="FAIL" start="2025-03-07T16:10:19.360464" elapsed="15.348273">Converting FOR IN RANGE values failed: NameError: name 'END' is not defined.</status>
 </test>
-<status status="PASS" start="2025-03-07T15:30:43.165460" elapsed="5.139431"/>
+<status status="FAIL" start="2025-03-07T16:10:19.173461" elapsed="15.595171"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Test1" id="s1" pass="1" fail="0" skip="0">Test1</stat>
+<stat name="Test1" id="s1" pass="0" fail="1" skip="0">Test1</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2025-03-07T15:30:43.351034" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-03-07T16:10:19.363643" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
 </errors>
 </robot>

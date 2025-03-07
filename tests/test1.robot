@@ -67,6 +67,6 @@ Test
     
     When I go to the menu Services & Voyages
     And I click on the submenu Revendre mon materiel
-    Then I check the encart
+    Then the slider Comment ça marche is opened
     And I check the 4 sections are here
    
