@@ -1,0 +1,72 @@
+{"level":30,"time":"2025-03-07T13:46:01.027Z","pid":29160,"hostname":"Vauban-1-4","msg":"Listening on 65460"}
+(node:29160) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-07T13:46:01.108Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-07T13:46:01.227Z","pid":29160,"hostname":"Vauban-1-4","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-03-07T13:46:01.227Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-07T13:46:01.227Z","pid":29160,"hostname":"Vauban-1-4","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-07T13:46:01.233Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-03-07T13:46:01.233Z","pid":29160,"hostname":"Vauban-1-4","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-03-07T13:46:01.233Z","pid":29160,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-07T13:46:01.233Z","pid":29160,"hostname":"Vauban-1-4","msg":"Trace file: "}
+{"level":30,"time":"2025-03-07T13:46:01.249Z","pid":29160,"hostname":"Vauban-1-4","msg":"Changed active context"}
+{"level":30,"time":"2025-03-07T13:46:01.249Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method newContext"}
+{"level":30,"time":"2025-03-07T13:46:01.253Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-07T13:46:01.253Z","pid":29160,"hostname":"Vauban-1-4","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-07T13:46:01.341Z","pid":29160,"hostname":"Vauban-1-4","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-07T13:46:01.341Z","pid":29160,"hostname":"Vauban-1-4","msg":"Changed active page"}
+{"level":30,"time":"2025-03-07T13:46:02.903Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-07T13:46:02.907Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:02.907Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-07T13:46:02.939Z","pid":29160,"hostname":"Vauban-1-4","msg":"Element id=didomi-notice-agree-button is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('id=didomi-notice-agree-button')\u001b[22m\n"}
+{"level":30,"time":"2025-03-07T13:46:02.939Z","pid":29160,"hostname":"Vauban-1-4","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-07T13:46:02.953Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:02.956Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T13:46:02.957Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-notice-agree-button in page."}
+{"level":30,"time":"2025-03-07T13:46:03.112Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T13:46:03.117Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:03.117Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with id=didomi-popup in page."}
+{"level":30,"time":"2025-03-07T13:46:03.367Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:03.373Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T13:46:03.373Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//span[@class='svelte-1lgf518'][normalize-space()='Services & voyages'] in page."}
+{"level":30,"time":"2025-03-07T13:46:03.531Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T13:46:03.536Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-07T13:46:03.536Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//a[@data-cs-override-id=\"categoryitem_7-seconde-vie-revendre-mon-materiel\"] in page."}
+{"level":30,"time":"2025-03-07T13:46:04.339Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method click"}
+{"level":30,"time":"2025-03-07T13:46:04.344Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:04.344Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx'] in page."}
+{"level":30,"time":"2025-03-07T13:46:04.603Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:04.617Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:04.617Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx'] in page."}
+{"level":30,"time":"2025-03-07T13:46:04.879Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:04.892Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:04.892Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx'] in page."}
+{"level":30,"time":"2025-03-07T13:46:05.142Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:05.154Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:05.154Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx'] in page."}
+{"level":30,"time":"2025-03-07T13:46:05.223Z","pid":29160,"hostname":"Vauban-1-4","msg":"Element xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx'] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('//section[@class=\\'drawer svelte-fim9kx open\\']//div[@class=\\'drawer_content svelte-fim9kx\\']')\u001b[22m\n"}
+{"level":30,"time":"2025-03-07T13:46:05.223Z","pid":29160,"hostname":"Vauban-1-4","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-07T13:46:05.237Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:05.241Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:05.241Z","pid":29160,"hostname":"Vauban-1-4","msg":"Strict mode is enabled, find Locator with xpath=//div[contains(text(),'Comment ça marche?')] in page."}
+{"level":30,"time":"2025-03-07T13:46:05.248Z","pid":29160,"hostname":"Vauban-1-4","msg":"Element xpath=//div[contains(text(),'Comment ça marche?')] is not editable: Error: locator.isEditable: Error: Element is not an <input>, <textarea>, <select> or [contenteditable] and does not have a role allowing [aria-readonly]\nCall log:\n\u001b[2m  - waiting for locator('//div[contains(text(),\\'Comment ça marche?\\')]')\u001b[22m\n"}
+{"level":30,"time":"2025-03-07T13:46:05.248Z","pid":29160,"hostname":"Vauban-1-4","msg":"Checking checked state"}
+{"level":30,"time":"2025-03-07T13:46:05.256Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getElementStates"}
+{"level":30,"time":"2025-03-07T13:46:05.261Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.263Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.264Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.265Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.267Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.268Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.270Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.272Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.274Z","pid":29160,"hostname":"Vauban-1-4","msg":"Changed active context"}
+{"level":30,"time":"2025-03-07T13:46:05.274Z","pid":29160,"hostname":"Vauban-1-4","msg":"Changing current active page: page=45451787-00f3-437a-9ab3-54b32e3280f9"}
+{"level":30,"time":"2025-03-07T13:46:05.274Z","pid":29160,"hostname":"Vauban-1-4","msg":"Changed active page"}
+{"level":30,"time":"2025-03-07T13:46:05.276Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-03-07T13:46:05.291Z","pid":29160,"hostname":"Vauban-1-4","msg":"Removed page=e66e2a66-09d0-48b0-89c9-fb64e63f6b88 from context=9cba04bd-ae22-47b7-b423-04b996a239a5 page stack"}
+{"level":30,"time":"2025-03-07T13:46:05.307Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-03-07T13:46:05.315Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:05.315Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-03-07T13:46:07.368Z","pid":29160,"hostname":"Vauban-1-4","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-03-07T13:46:07.540Z","pid":29160,"hostname":"Vauban-1-4","msg":"End of node method closeAllBrowsers"}

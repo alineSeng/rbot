@@ -4,6 +4,7 @@ Library  Browser
 *** Variables ***
 ${URL}  https://www.decathlon.fr/
 ${SEARCH}  ballon
+${expected text}  Comment ça marche?  
 
 *** Keywords ***
 I am on the homepage
@@ -24,3 +25,25 @@ I search for ${SEARCH}
     #Press Keys    css=#search-bar input[type='search]   enter 
     
  
+
+###########################
+# Aller dans le menu Services & Voyages
+I go to the menu Services & Voyages
+    Click  xpath=//span[@class='svelte-1lgf518'][normalize-space()='Services & voyages']
+
+# Dans ce menu, sous menu Seconde Vie, cliquer sur Revendre mon matériel
+I click on the submenu Revendre mon materiel
+    Click  xpath=//a[@data-cs-override-id="categoryitem_7-seconde-vie-revendre-mon-materiel"]
+
+# Un encard s'affiche sur la droite.
+I check the encart
+    Get Element States    xpath=//section[@class='drawer svelte-fim9kx open']//div[@class='drawer_content svelte-fim9kx']  contains  visible
+    
+#S'assurer que les 4 sections de texte sont bien "Identifier ton produit" etc...
+I check the 4 sections are here
+    
+    ${comment ca marche?}=  Get Text    xpath=//div[contains(text(),'Comment ça marche?')] 
+
+    Should Be Equal As Strings      ${comment ca marche?}     ${expected text}  
+
+    

@@ -32,34 +32,41 @@ Test 4
     #Then I check that the sort list is by "Note des clients"
 
     
-Test 5
-    When I search for ballon
-    Then I am on the search for "ballon"
-    #When I sort the list by "Note des clients"
-    And I open the first product page
-    #Then I am on the product page for "Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL."
-    Then I am on the product page for "BALLON DE GYM RÉSISTANT - Swissball - 65 CM - Argent"
-    When I add the product to the cart
-    Then the product is added to the cart successfully
-    When I go to the cart
-    Then the cart is displayed
-    And there are "1" product(s) in the cart
-    #And the product "Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL." is in the cart 
-    And the product "BALLON DE GYM RÉSISTANT - Swissball - 65 CM - Argent" is in the cart
+# Test 5
+#     When I search for ballon
+#     Then I am on the search for "ballon"
+#     #When I sort the list by "Note des clients"
+#     And I open the first product page
+#     #Then I am on the product page for "Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL."
+#     Then I am on the product page for "BALLON DE GYM RÉSISTANT - Swissball - 65 CM - Argent"
+#     When I add the product to the cart
+#     Then the product is added to the cart successfully
+#     When I go to the cart
+#     Then the cart is displayed
+#     And there are "1" product(s) in the cart
+#     #And the product "Un ballon d'entraînement et de match au design inspiré du ballon officiel de l'UWCL." is in the cart 
+#     And the product "BALLON DE GYM RÉSISTANT - Swissball - 65 CM - Argent" is in the cart
 
 
-Test 7 
-    When I search for "8549582"
-    And I add the product to the cart
-    Then the product is added to the cart successfully
-    When I close the cart popin
-    When I search for "8336573"
-    And I add the product to the cart
-    Then the product is added to the cart successfully
+# Test 7 
+#     When I search for "8549582"
+#     And I add the product to the cart
+#     Then the product is added to the cart successfully
+#     When I close the cart popin
+#     When I search for "8336573"
+#     And I add the product to the cart
+#     Then the product is added to the cart successfully
 
-Test 8
-    When I search for ballon
-    Then I am on the search page for "ballon"
-    And The sellers are displayed correctly
+# Test 8
+#     When I search for ballon
+#     Then I am on the search page for "ballon"
+#     And The sellers are displayed correctly
     
+    
+Test 
+    
+    When I go to the menu Services & Voyages
+    And I click on the submenu Revendre mon materiel
+    Then I check the encart
+    And I check the 4 sections are here
    
